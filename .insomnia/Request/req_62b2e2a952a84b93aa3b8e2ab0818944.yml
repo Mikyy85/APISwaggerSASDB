@@ -1,0 +1,21 @@
+_id: req_62b2e2a952a84b93aa3b8e2ab0818944
+type: Request
+parentId: fld_62faf3c55edd4cc6a5b826a2f40f507b
+modified: 1683899515969
+created: 1683899488329
+url: "{{ _.root }}type/sesso"
+name: Sesso
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683899488329
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

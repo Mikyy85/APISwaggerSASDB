@@ -1,0 +1,14 @@
+_id: env_7d242ea2d41646bd8b40554eea9385e0
+type: Environment
+parentId: env_2f2c259ad48f58f8abc282f0fbb5b45dbc6491f6
+modified: 1683901734830
+created: 1683713939492
+name: sas
+data:
+  root: http://localhost:1212/api/data/
+dataPropertyOrder:
+  "&":
+    - root
+color: null
+isPrivate: false
+metaSortKey: 1683713939492

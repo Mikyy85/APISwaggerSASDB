@@ -1,0 +1,41 @@
+_id: req_f3bdcef7a1a64623b3583da1985763c0
+type: Request
+parentId: fld_1d379783edaa4edaaf41e2e99fc69ed6
+modified: 1683797018445
+created: 1683717674427
+url: "{{ _.root }}turno-dipendente"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 4,
+    		"giorno": "2023-05-08",
+    		"oraInizioTurno": "09:00:00",
+    		"oaFineTurno": "18:31:00",
+    		"dipendente": {
+    			"id": 1
+    		},
+    		"pause": [
+    			{
+    				"id": 4,
+    				"inizioPausa": "14:20:10",
+    				"finePausa": "15:54:00"
+    			}
+    		]
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683717674427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

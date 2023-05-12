@@ -1,0 +1,21 @@
+_id: req_14e4969d82ea4686bd8fc3ad65df9e58
+type: Request
+parentId: fld_d325fb15a3874fb7911ed3b94c507848
+modified: 1683801482127
+created: 1683801473317
+url: "{{ _.root }}permesso"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683801473317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

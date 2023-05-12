@@ -1,0 +1,34 @@
+_id: req_67971b5bb7284b87a3d672b95394f855
+type: Request
+parentId: fld_d325fb15a3874fb7911ed3b94c507848
+modified: 1683898459968
+created: 1683898380579
+url: "{{ _.root }}/permesso"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    	{
+    		"id": 1,
+    		"dataInizio": "2023-05-14T22:00:00.000+00:00",
+    		"dataFine": "2023-05-19T22:00:00.000+00:00",
+    		"dipendente": {
+    			"id": 1
+    		},
+    		"stato": "open"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683898380579
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
